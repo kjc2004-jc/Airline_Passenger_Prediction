@@ -9,7 +9,7 @@ import numpy as np
 st.title("✈️ Airline Passenger Forecasting")
 
 # Upload CSV
-uploaded_file = st.file_uploader("C:/Users/jayan/Downloads/AirPassengers.csv", type="csv")
+uploaded_file = st.file_uploader("AirPassengers.csv", type="csv")
 
 if uploaded_file is not None:
     df = pd.read_csv(uploaded_file)

@@ -5,7 +5,7 @@ import  warnings
 warnings.filterwarnings("ignore")
 
 # Load CSV dataset
-df = pd.read_csv("C:/Users/jayan/Downloads/AirPassengers.csv")  # Replace with your actual file name if different
+df = pd.read_csv("AirPassengers.csv")
 
 # Parse 'Month' as datetime
 df['Month'] = pd.to_datetime(df['Month'])
