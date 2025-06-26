@@ -20,7 +20,7 @@ if uploaded_file is not None:
     df.set_index('Month', inplace=True)
 
     st.subheader("📊 Raw Data")
-    st.dataframe(df.head())
+    st.dataframe(df)
 
     # Plot historical data
     st.subheader("📈 Historical Passenger Data")
